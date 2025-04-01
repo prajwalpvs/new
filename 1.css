@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('https://www.transparenttextures.com/patterns/pokeball.png');
+    background-size: cover;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.pokemon-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.pokemon-card:hover {
+    transform: translateY(-10px);
+}
+
+.pokemon-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.pokemon-card h2 {
+    color: #3b4cca;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+
+/* Type badges */
+.type-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Type colors */
+.type-normal { background-color: #A8A77A; }
+.type-fire { background-color: #EE8130; }
+.type-water { background-color: #6390F0; }
+.type-electric { background-color: #F7D02C; }
+.type-grass { background-color: #7AC74C; }
+.type-ice { background-color: #96D9D6; }
+.type-fighting { background-color: #C22E28; }
+.type-poison { background-color: #A33EA1; }
+.type-ground { background-color: #E2BF65; }
+.type-flying { background-color: #A98FF3; }
+.type-psychic { background-color: #F95587; }
+.type-bug { background-color: #A6B91A; }
+.type-rock { background-color: #B6A136; }
+.type-ghost { background-color: #735797; }
+.type-dragon { background-color: #6F35FC; }
+.type-dark { background-color: #705746; }
+.type-steel { background-color: #B7B7CE; }
+.type-fairy { background-color: #D685AD; }
